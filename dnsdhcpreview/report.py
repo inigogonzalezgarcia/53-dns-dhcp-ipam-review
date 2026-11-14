@@ -189,7 +189,7 @@ def pack_md(d: Data, rv: dict, title: str) -> str:
     out += ["", "## DHCP scopes to watch", "", "| Scope | Server | In use | Change | Full in | Lease | Failover |", "|---|---|---|---|---|---|---|"]
     for row in scope_rows(d, rv):
         if row[9] and (float(row[9]) >= s.scope_amber or (row[11] and float(row[11]) <= s.forecast_days)):
-            out.append(f"| {_md(row[3])} | {row[0]} | {row[8]} / {row[7]} ({float(row[9]):.0f} %) | {f"{row[10]:+d}" if row[10] != '' else '–'} | "
+            out.append(f"| {_md(row[3])} | {row[0]} | {row[8]} / {row[7]} ({float(row[9]):.0f} %) | {format(row[10], '+d') if row[10] != '' else '–'} | "
                        f"{(row[11] + ' days') if row[11] else '–'} | {row[12]} | {row[13] or 'none'} {row[14]} |")
     out += ["", "## Decisions needed", "", "| # | Decision | Options | Proposed | Owner | Needed by | Outcome |", "|---|---|---|---|---|---|---|"]
     out += [f"| {x.id} | **{_md(x.decision)}**<br>{_md(x.why)} | {_md(x.options)} | {_md(x.proposed)} | {_md(x.owner)} | "
