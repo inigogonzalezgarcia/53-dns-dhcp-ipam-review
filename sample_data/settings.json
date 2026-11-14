@@ -1,0 +1,32 @@
+{
+  "organisation": "Wingtip Toys",
+  "review_date": "2026-11-14 09:00",
+  "previous_review": "2026-10-14",
+  "domain": "corp.wingtip.example",
+  "scope_amber": 80,
+  "scope_red": 90,
+  "forecast_days": 30,
+  "stale_grace_days": 7,
+  "expiring_days": 30,
+  "max_lease": {
+    "guest": "08:00:00",
+    "wifi": "1.00:00:00",
+    "scanners": "8.00:00:00",
+    "users": "8.00:00:00"
+  },
+  "approved_forwarders": [
+    "10.0.255.53",
+    "10.0.255.54"
+  ],
+  "due_days": {
+    "RED": 7,
+    "AMBER": 30
+  },
+  "owners": {
+    "DHCP": "Network team",
+    "DNS": "Windows server team",
+    "IPAM": "Network team",
+    "EXCEPTIONS": "Security risk manager",
+    "ROGUE": "Security operations"
+  }
+}

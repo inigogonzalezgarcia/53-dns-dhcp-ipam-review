@@ -1,0 +1,7 @@
+DnsName,IPAddress,Authorized,Source,Detail
+mad-dc01.corp.wingtip.example,10.10.0.11,True,Active Directory,
+mad-dc02.corp.wingtip.example,10.10.0.12,True,Active Directory,
+get-dc01.corp.wingtip.example,10.20.0.11,True,Active Directory,
+lis-dc01.corp.wingtip.example,10.30.0.11,True,Active Directory,
+par-dc01.corp.wingtip.example,10.40.0.11,True,Active Directory,
+,192.168.0.1,False,DHCP snooping on PAR-SW02,"offers on VLAN 130 (PAR Showroom) from port Gi1/0/14, MAC 3c-84-6a-11-20-5e (a consumer router)"

@@ -1,0 +1,24 @@
+Subnet,Site,Vlan,Purpose,Owner,Dhcp,Description
+10.40.0.0/24,Paris,10,servers,Windows server team,no,Servers and domain controllers
+10.30.0.0/24,Lisbon,10,servers,Windows server team,no,Servers and domain controllers
+10.20.0.0/24,Getafe,10,servers,Windows server team,no,Servers and domain controllers
+10.10.0.0/24,Madrid,10,servers,Windows server team,no,Servers and domain controllers
+10.10.10.0/23,Madrid,110,users,Network team,yes,Floor 1 users
+10.10.12.0/23,Madrid,120,users,Network team,yes,Floor 2 users
+10.10.14.0/23,Madrid,130,users,Network team,yes,Floor 3 users
+10.10.20.0/24,Madrid,200,voice,Unified communications,yes,Voice
+10.10.30.0/24,Madrid,300,printers,Service desk,yes,Printers
+10.10.40.0/22,Madrid,400,wifi,Network team,yes,Corporate Wi-Fi
+10.10.50.0/24,Madrid,500,guest,Network team,yes,Guest Wi-Fi
+10.20.10.0/24,Getafe,110,users,Network team,yes,Office users
+10.20.20.0/23,Getafe,150,scanners,Logistics IT,yes,Handheld scanners
+10.20.30.0/24,Getafe,300,printers,Logistics IT,yes,Printers and label printers
+10.20.40.0/24,Getafe,400,wifi,,yes,Operations Wi-Fi
+10.20.50.0/24,Getafe,500,guest,Network team,yes,Guest Wi-Fi
+10.30.10.0/24,Lisbon,110,users,Network team,yes,Users
+10.30.20.0/25,Lisbon,200,voice,,yes,Voice
+10.40.10.0/24,Paris,110,users,Network team,yes,Users
+10.40.30.0/24,Paris,130,users,Retail IT,yes,Showroom
+10.40.50.0/24,Paris,500,guest,,yes,Guest Wi-Fi
+10.30.50.0/24,Lisbon,500,guest,Network team,yes,Guest Wi-Fi (new office floor)
+10.40.30.128/25,Paris,310,printers,Retail IT,no,Showroom printers and screens

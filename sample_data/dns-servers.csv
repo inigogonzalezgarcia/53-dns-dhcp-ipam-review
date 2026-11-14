@@ -1,0 +1,7 @@
+Server,IPAddress,Site,Role,ScavengingState,ScavengingInterval,LastScavengeTime,Forwarders,Status
+MAD-DC01,10.10.0.11,Madrid,"DC, DNS, DHCP",False,0.00:00:00,,10.0.255.53;10.0.255.54,
+MAD-DC02,10.10.0.12,Madrid,"DC, DNS, DHCP",False,0.00:00:00,,10.0.255.53;10.0.255.54,
+MAD-DC03,10.10.0.13,Madrid,"DC, DNS",True,7.00:00:00,2026-09-14 02:00:00,,Decommissioned 2026-09-18
+GET-DC01,10.20.0.11,Getafe,"DC, DNS, DHCP",False,0.00:00:00,,10.0.255.53;10.0.255.54,
+LIS-DC01,10.30.0.11,Lisbon,"DC, DNS, DHCP",False,0.00:00:00,,192.0.2.53,
+PAR-DC01,10.40.0.11,Paris,"DC, DNS, DHCP",False,0.00:00:00,,8.8.8.8;1.1.1.1,

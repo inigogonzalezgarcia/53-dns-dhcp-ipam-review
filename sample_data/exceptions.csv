@@ -1,0 +1,6 @@
+Subject,Check,Reason,Approver,Ticket,Expires
+get-zebra-12.corp.wingtip.example,DNS-STATIC-POOL,Label printer firmware only supports a static address; IP excluded on the switch port,Head of Logistics IT,CHG-4471,2027-01-31
+LIS-DC01,DHCP-NOFAILOVER,Single server in Lisbon until the second one arrives,IT Director,RISK-112,2026-10-31
+wms.wingtip.example,DNS-INSECURE,The handheld vendor needs nonsecure updates for the RF guns,,WMS-219,2027-03-31
+PAR-DC01,DNS-FORWARDERS,Public DNS during the showroom launch for the streaming partner,IT Director,CHG-4502,2026-11-30
+MAD Floor 2 users,DHCP-FULL,Temporary: sales move to floor 2 in Q3,IT Director,CHG-4320,2027-02-28

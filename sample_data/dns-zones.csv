@@ -1,0 +1,6 @@
+ZoneName,ZoneType,IsDsIntegrated,ReplicationScope,DynamicUpdate,IsReverseLookupZone,AgingEnabled,NoRefreshInterval,RefreshInterval
+corp.wingtip.example,Primary,True,Forest,Secure,False,False,7.00:00:00,7.00:00:00
+_msdcs.corp.wingtip.example,Primary,True,Forest,Secure,False,False,7.00:00:00,7.00:00:00
+wms.wingtip.example,Primary,True,Domain,NonsecureAndSecure,False,False,7.00:00:00,7.00:00:00
+10.10.in-addr.arpa,Primary,True,Domain,Secure,True,False,7.00:00:00,7.00:00:00
+20.10.in-addr.arpa,Primary,True,Domain,Secure,True,False,7.00:00:00,7.00:00:00
